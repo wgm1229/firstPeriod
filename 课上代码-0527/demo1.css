@@ -1,0 +1,9 @@
+/* 在外部的css文件里面，不需要style标签了 */
+div{
+	color: pink;
+	font-size: 30px;
+}
+p{
+	font-size: 80px;
+	color: skyblue;
+}

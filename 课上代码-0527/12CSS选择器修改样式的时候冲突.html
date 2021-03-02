@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.xionger{
+				color: orange;
+				font-size: 80px;
+			}
+			div{
+				color: blue;
+			}
+			.goudan{
+				color: pink;
+			}
+			
+			/* 
+			 div的蓝色和goudan的粉色，浏览器解析的结果是粉色
+			 原因是因为div是类型选择器的写法权重是1
+			 goudan是class选择器的写法，权重是10
+			 10>1
+			 所以浏览器解析的是粉色
+			 goudan的粉色  和xionger的橘色，浏览器解析的是橘色
+			 原因是因为  goudan和xionger的权重是相同的，但是后写的是goudan的粉色，所以显示的是粉色
+
+			 */		
+			.caihua{
+				color: green;
+			}
+			.heitu{
+				color: skyblue;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="goudan xionger xiaocai">11111111111111</div>
+		<div class="caihua">2222222222222222</div>
+		<div class="heitu">3333333333</div>
+	</body>
+</html>
+<!-- 
+如果对于同一个元素设置了相同的css样式，会发生冲突
+ 引起的原因有2个
+ 1、当选择器不同的时候且权重不同的时候，高权重的样式覆盖低权重的样式。
+	权重就是类似人的体重
+	类型选择器（标签选择器）他的权重是0001
+	class选择器他的权重是0010
+	id选择器他的权重是0100
+ 2、当选择器相同且权重也是相同的时候，css的解析规则是，谁后写的css浏览器就显示谁的样式（后来者居上）
+ -->
