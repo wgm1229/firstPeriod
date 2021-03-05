@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        .wrap{
+            height: 1100px;
+            width: 100%;
+            
+        }
+        .item1{
+            background:url(images/bg1.png) no-repeat center/100% 100% fixed;
+            overflow: hidden;
+            /* 解决内容移动把父元素带下来的效果 */
+            /* background-attachment:fixed ; */
+        }
+        .item2{
+            background:url(images/bg2.png) no-repeat center/100% 100%;
+            background-attachment: fixed;
+           
+        }
+        .item3{
+            background:url(images/bg3.png) no-repeat center/100% 100%;
+            background-attachment: fixed;
+        }
+        p{
+            font-size: 30px;
+            background-color:rgba(255, 255, 255, 0.8);
+            height: 200px;    
+            text-align: center;  
+            line-height: 200px;
+            font-weight: 900;
+            
+        }
+        .item1 p{
+            margin-top: 300px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="wrap item1"><p>Text information1</p></div>
+    <div class="wrap item2"><p>Text information2</p></div>
+    <div class="wrap item3"><p>Text information3</p></div>
+</body>
+</html>
