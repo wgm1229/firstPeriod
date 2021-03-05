@@ -1,0 +1,79 @@
+/* 网页的头部header-con  */
+.header-con,.nav,.banner{
+    width: 1002px;
+    margin:0 auto;
+}
+
+.header-con{ 
+    height: 100px;
+    /* background: #ccc; */
+}
+.logo{
+    float: left;
+    margin-left: 21px;
+    margin-top: 35px;
+}
+.search{
+    float: right;
+}
+.search input{
+    background: #f1f1f1;
+    border: 1px solid #e5e5e5;
+    height: 26px;
+    float: left;
+}
+.search{
+    margin:39px 21px 0px 0px;
+}
+.search .txt{ 
+    width: 181px;
+    border-right: 0px;
+    font-size: 9px;
+    padding-left: 14px;
+}
+.search .btn{
+    width: 30px;
+    height: 28px;
+    border-left: 0px;
+    background: #f1f1f1 url(../images/search.jpg) no-repeat center;
+}
+
+
+/* nav导航 */
+.nav-con{
+    height: 58px;
+    background: #2e2e2e;
+}
+.nav{
+    height: 58px;
+    /* background: pink; */
+}
+.nav li{
+    float: left;
+    width: 119px;
+    height: 58px;
+    border-right:1px solid #4a4a4a ;
+    text-align: center;
+    line-height: 58px;
+    font-size: 12px;
+}
+.nav a{
+    color: #fefefe;
+}
+.nav .nav-first{
+    width: 146px;
+}
+.nav .nav-last{
+    width: 134px;
+    border-right: none;
+}
+
+/* banner广告图 */
+.banner-con{
+    height: 465px;
+    background: #ccc url(../images/banner.jpg) no-repeat center;
+}
+.banner{
+    height: 465px;
+    /* background: orange; */
+}
