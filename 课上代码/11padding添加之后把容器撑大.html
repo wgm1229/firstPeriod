@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				/* 清除标签自带的默认间距 */
+			}
+			.a1{
+				width: 60px;
+				height: 60px;
+				background-color: skyblue;
+				padding: 20px;
+			}
+			.a2{
+				width: 50%;
+				height: 60px;
+				background-color: green;
+				padding-left: 100px;
+				box-sizing: border-box;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="a1">我是我是我是</div>
+		<div class="a2">我是我是我是我是我是我是</div>
+	</body>
+</html>
+<!-- 
+ padding是添加在原有盒子大小之上的，所以padding会把盒子给撑大
+ 如果即想要间距，又不想盒子被撑大
+	解决方法：
+	1、让宽度或者高度减去padding的数值
+	2、给当前添加padding的容器设置box-sizing：border-box；
+	
+	box-sizing：border-box；单词的本意 设置盒子模型是边框盒子
+	  当这个属性添加之后，无论怎么设置padding的数值，盒子都不会被撑大
+	  
+ -->

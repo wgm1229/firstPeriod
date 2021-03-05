@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			/* .w1014{
+				width: 1014px;
+			} */
+			/* 群组选择器 */
+			.center,.black,.box,.goudan,#cuihua{
+				width: 1014px;
+			}
+			.top{
+				height: 62px;
+				/* 背景颜色 */
+				background-color: #232323;
+			}
+			.center{
+				height: 62px;
+				/* width: 1014px; */
+				background-color: #e24a15;
+				/* 可以实现一个矩形的盒子居中 */
+				margin: 0 auto;
+			}
+			
+			.green{
+				height: 423px;
+				background-color: green;
+			}
+			.gray{
+				height: 350px;
+				background-color: gray;
+			}
+			.black{
+				/* width: 1014px; */
+				height: 350px;
+				background-color: #222222;
+				margin: 0 auto;
+			}
+			
+			.box{
+				height: 230px;
+				background-color: deeppink;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 40px;
+				margin-bottom: 39px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<!-- <div class="center w1014"></div> -->
+			<div class="center"></div>
+		</div>
+		
+		
+		<div class="green"></div>
+		
+		<div class="gray">
+			<!-- <div class="black w1014"></div> -->
+			<div class="black"></div>
+		</div>
+		
+		
+		<div class="box"></div>
+	</body>
+</html>
+<!-- 
+1、如果写页面的时候，发现有一些样式是公用的
+	那么可以起一个公用的名字，然后谁需要，就调用这个名字
+2、 如果写页面的时候，发现有一些样式是公用的
+	把公用的CSS样式提取出来，然后用群组选择器实现
+		群组选择器的语法：  选择器1，选择器2，选择3{}
+		使用场景，就是为了提取公用的样式，进行代码简化
+ 
+ -->

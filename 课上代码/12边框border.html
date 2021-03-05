@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.a1{
+				width: 200px;
+				height: 200px;
+				background-color: blue;
+				/* border-width: 3px;
+				border-color: red;
+				border-style: solid; */
+				/* border: 3px red solid; */
+				border-top: 3px red solid;
+				border-bottom: 3px deeppink solid;
+			}
+			.a2{
+				width: 194px;
+				height: 194px;
+				background-color: blue;
+				/* border-width: 3px;
+				border-color: red;
+				border-style: dashed; */
+				border: dashed 3px red;
+			}
+			.a3{
+				width: 200px;
+				height: 200px;
+				background-color: blue;
+				border-width: 3px;
+				border-color: red;
+				border-style: dotted;
+				box-sizing: border-box;
+			}
+			.a4{
+				width: 200px;
+				height: 200px;
+				background-color: blue;
+				border-width: 3px;
+				border-color: red;
+				border-style: double;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a1"></div>
+		<br />
+		<div class="a2"></div>
+		<br />
+		<div class="a3"></div>
+		<br />
+		<div class="a4"></div>
+	</body>
+</html>
+<!-- 
+边框添加上去之后，会把盒子给撑大
+ 如果既要边框，又不想被撑大
+	解决方法：
+	1、让宽度或者高度减去添加上去的边框
+	2、给添加边框的盒子，设置box-sizing：border-box；
+ 
+ -->
