@@ -1,0 +1,46 @@
+设置内容垂直居中
+vertical-align
+            ：top    顶部对齐
+            ：bottom 底部对齐
+            :middle  垂直居中
+
+
+1、vertical-align只有行内块元素能用
+2、还需要有一个参照物设置(在需要垂直居中的标签后面加span并设置)
+                    display:inline-block
+                    vertical：middle
+                    height:100%
+
+
+
+定位 position
+  定位一共有4个定位
+            相对定位
+            绝对定位
+            固定定位
+            粘性定位  
+
+定位元素可以触发5个属性
+4个是设置位置方向   left/right/top/bottom
+1个是设置层级关系   z-index
+
+
+
+相对定位
+position：relative
+
+1、相对定位后可以触发5个属性left/right/top/bottom/z-index
+2、相对定位后，定位的内容是占位的，默认没有脱离文档流
+3、相对定位位置移动是相对于自己的原位置进行移动
+
+
+绝对定位 
+position:absolute
+1、相对定位后可以触发5个属性left/right/top/bottom/z-index
+2、绝对定位设置后，内容不占位（绝对定位的元素脱离文档流）
+3、绝对定位位置移动，先找有定位属性的父元素(推荐使用相对定位)，如果没有定位父元素，才根据浏览器窗口的位置进行移动
+（子绝父相）
+
+
+作业：1、掌握相对定位和绝对定位的概念和运用
+     2、把定位的练习案例完成
