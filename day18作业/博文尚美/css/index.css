@@ -1,0 +1,27 @@
+/* 头部 */	
+.header-con{
+	width: 1082px;
+	height: 81px;
+	margin: 0 auto;
+	/* background: pink; */
+}
+.logo{
+	margin-top:19px ;
+}	
+.header-nav li{
+	float: left;
+}
+	
+.header-nav a{
+	display: block;
+	height: 81px;
+	padding: 0px 30px;
+	font-size: 14px;
+	color: #646464;
+	line-height: 81px;
+	/* border: 1px solid red; */
+}
+	
+.header-nav .last{
+	padding-right: 0px;
+}

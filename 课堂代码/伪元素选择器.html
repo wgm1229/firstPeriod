@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        div{
+            width: 200px;
+            height: 100px;
+            border:1px solid red;
+        }
+        div:after{
+            content: "";
+            color: red;
+            border:1px dotted #000;
+            width: 80px;
+            height: 80px;
+            display: block;
+        }
+        div:before{
+            content: "";
+            color: red;
+            border:1px dotted #000;
+            width: 80px;
+            height: 80px;
+            display: block;
+        }
+
+
+
+      
+      伪元素选择器
+      ::after和::before必须配合content属性一起使用才有效果
+      
+        ::after 可以在父元素内容的后面生成一个空盒子
+        ::before可以在父元素内容的前面生成一个空盒子
+    
+    </style>
+</head>
+<body>
+    <div>
+        我是小妖怪，逍遥又自在，
+    </div>
+</body>
+</html>

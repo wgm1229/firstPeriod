@@ -1,0 +1,22 @@
+/* 网页的头部header */
+.header-con{
+    width: 1082px;
+    height: 81px;
+    /* background: pink; */
+    margin:0 auto;
+}
+.logo{
+    margin-top: 19px;
+}
+.header-nav li{
+    float: left;
+}
+.header-nav a{
+    display: block;
+    height: 81px;
+    padding:0 30px;
+    border:1px solid red;
+    line-height: 81px;
+    font-size: 14px;
+    color: #646464;
+}

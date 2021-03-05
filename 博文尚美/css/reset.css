@@ -1,0 +1,31 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,input,dl,dt,dd,form{margin: 0;padding: 0;}
+ul,ol,li{list-style: none;}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+a,u{
+    text-decoration: none;
+}
+b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+input{
+    outline: none;
+}
+
+/* 清除高度塌陷 */
+.clear-fix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}

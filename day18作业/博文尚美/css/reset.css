@@ -1,0 +1,33 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dd,dl,dt,form,input{
+	margin: 0;padding: 0;
+}
+ul,ol,li{list-style: none;}
+input{outline: none;}
+h1,h2,h3,h4,h5,h6{
+	font-size:16px;
+}
+b,strong{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+}
+a,u{
+	text-decoration: none;
+}
+/* 清除高度塌陷 */
+.clear-fix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 左浮动 */
+	
+.fl{
+	float: left;
+}
+
+/* 右浮动	 */
+.fr{
+	float: right;
+}
