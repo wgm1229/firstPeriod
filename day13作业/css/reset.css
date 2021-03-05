@@ -1,0 +1,41 @@
+/* reset.css用了重置样式 */
+*{margin: 0;padding: 0;}
+/* 清除内外边距 */
+body{
+	font-size: 16px;
+	font-size: "Microsoft YaHei";
+}
+
+ul,ol,li{
+	list-style: none;
+	/* 清除列表默认样式 */
+}
+
+u,a{
+	text-decoration: none;
+	/* 清除下划线 */
+}
+
+i,em{
+	font-style: normal;
+	/* 清除倾斜样式 */
+}
+
+b,strong{
+	font-weight: normal;
+	/* 清除加粗样式 */
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 16px;
+}
+
+img{
+	border: none;
+	/* 兼容IE浏览器 */
+}
+input{
+	outline: none;
+	/* 清除input聚焦时的蓝色样式 */
+}

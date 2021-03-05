@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border:5px solid #000;
+            margin:100px auto;
+            white-space:nowrap;
+            /* 强制内容不换行 */
+            overflow: hidden;
+            text-overflow: ellipsis;
+           
+            /* 隐藏超出的内容 */
+        }
+        设置内容空白空间的处理
+        white-space 
+                normal   默认值，（自动换行，空格只会识别一个） 
+                pre      强制内容一行显示，多个空格的距离可以识别
+                nowrap   强制内容一行显示，空格只会识别一个 
+                pre-wrap 自动换行，多个空格的距离可以识别
+                pre-line 自动换行,空格只会识别一个,但是可以识别换行
+
+
+        设置元素溢出内容的设置
+        overflow: 
+                    visible  默认值
+                    hidden   溢出隐藏
+                    auto     超出的内容会出现滚动条（只有超出才有滚动条）
+                    scroll   超出的内容会出现滚动条（内容不超出也有滚动条的组件）
+
+        延伸
+        overflow-x   overflow-y  (默认值是auto)
+
+        设置隐藏的内容
+        text-overflow
+                    clip   裁剪影藏的内容  ，默认值
+                    ellipsis 设置隐藏的内容为省略号
+        
+                    
+
+                    
+    </style>
+</head>
+<body>
+    <div>内容内           
+        容内aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa容内容内容内容内容内容内容内容内容内容内容内容内容内容内</div>
+</body>
+</html>
