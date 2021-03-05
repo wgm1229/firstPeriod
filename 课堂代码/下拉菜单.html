@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        ul,li{list-style: none;}
+        a{text-decoration: none;}
+
+        .nav{
+            width: 405px;
+            height: 30px;
+            margin:100px auto;
+        }
+        .nav li{
+            float: left;
+            border-right: 1px solid #fff;
+        }
+        .nav a{
+            display: block;
+            width: 100px;
+            height: 30px;
+            background: #eee;
+            text-align: center;
+            line-height: 30px;
+            color: #333;
+        }
+        .nav2{
+            position: absolute;
+            display: none;
+            width: 100px;
+        }
+        .nav>li:hover .nav2{
+            display: block;
+        }
+        .nav a:hover{
+            color: #fff;
+            background: #333;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="#">首页</a></li>
+        <li>
+            <a href="#">产品中心</a>
+
+            <ul class="nav2">
+                <li><a href="#">产品1</a></li>
+                <li><a href="#">产品2</a></li>
+                <li><a href="#">产品3</a></li>
+            </ul>
+        </li>
+        
+        <li><a href="#">客户服务</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+</body>
+</html>
+
+
+

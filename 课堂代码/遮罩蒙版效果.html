@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        a{
+            font-size: 20px;
+        }
+        div{
+            height: 800px;
+            font-size: 70px;
+            text-align: center;
+            line-height: 800px;
+            color: #fff;
+        }
+        #box1{
+            background: green;
+        }
+        #box2{
+            background: orange;
+        }
+        #box3{
+            background: pink;
+        }
+        .nav{
+            position: fixed;
+            left: 30px;
+            bottom:200px;
+        }
+        a{
+            display: block;
+            width: 40px;
+            height: 50px;
+            color: #eee;
+            background: red;
+            margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+        }
+        .content{
+            width: 100%;
+            height: 1400px;
+            background: #000;
+            opacity: 0.5;
+            position: fixed;
+            z-index: 3;
+        }
+        .loding{
+            width: 600px;
+            height: 400px;
+            background: #70e2f4;
+            position: fixed;
+            z-index:5 ;
+            /* left: 50%;
+            top:50%;
+            margin-left:-300px ;
+            margin-top:-200px; */
+
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin:auto;
+        }
+        设置内容水平垂直居中
+
+           两种方法
+
+           第一种
+                left:50%;
+                top:50%;
+                margin-left:-(本身的宽度/2)
+                margin-top:-(本身的高度/2)
+
+          第二种
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin:auto;
+    </style>
+</head>
+<body>
+
+    <div class="content"></div>
+    <div class="loding"></div>
+
+
+    <p class="nav">
+        <a href="#box1">1f</a>
+        <a href="#box2">2f</a>
+        <a href="#box3">3f</a>
+    </p>
+   
+
+    <div id="box1">1楼</div>
+    <div id="box2">2楼</div>
+    <div id="box3">3楼</div>
+</body>
+</html>
