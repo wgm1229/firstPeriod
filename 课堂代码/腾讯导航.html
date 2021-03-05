@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        ul,li{list-style: none;}
+        a{text-decoration: none;}
+        .nav{
+            width: 810px;
+            height: 78px;
+            background:pink;
+            margin:100px auto;
+        }
+        .nav li{
+            float: left;
+            margin-right: 1px;
+        }
+        a{
+            height:  78px;
+            border:1px solid red;
+            display: block;
+            background: url(images/nav.png) no-repeat;
+            text-indent:-100%;
+            overflow: hidden;
+        }
+        a:hover{
+            background-image: url(images/nav-on.png);
+        }
+		/* 不能使用background：因为用这个替换的话，会重置position为0px 0px 还有repeat选项也会重置 */
+        .item1{
+            width: 89px;
+            background-position: 0px 0px;
+        }
+        .item2{
+            width: 112px;
+            background-position: -92px 0px;
+        }
+        .item3{
+            width: 132px;
+            background-position: -205px 0px;
+        }
+        .item4{
+            width: 108px;
+            background-position: -338px 0px;
+        }
+        .item5{
+            width: 112px;
+            background-position: -447px 0px;
+        }
+        .item6{
+            width: 112px;
+            background-position: -560px 0px;
+        }
+        .item7{
+            width: 108px;
+            background-position: -672px 0px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="#" class="item1">首页</a></li>
+        <li><a href="#" class="item2">微信学员</a></li>
+        <li><a href="#" class="item3">开放平台学员</a></li>
+        <li><a href="#" class="item4">互联网学员</a></li>
+        <li><a href="#" class="item5">营销学员</a></li>
+        <li><a href="#" class="item6">游戏学院</a></li>
+        <li><a href="#" class="item7">腾讯云学员</a></li>
+    </ul>
+</body>
+</html>

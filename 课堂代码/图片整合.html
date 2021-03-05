@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        .wrap{
+            width: 330px;
+            height: 100px;
+            background: pink;
+            margin:100px auto;
+        }
+       .box1,.box2,.box3{
+           width: 70px;
+           height: 60px;
+           border:10px solid #000;
+           float: left;
+           margin:10px;
+           background-image:url(images/bigptr.jpg) ;
+           background-repeat: no-repeat;
+       } 
+       .box1{
+           background-position: -105px -170px;
+       }
+       .box2{
+           background-position: -246px -128px;
+       }
+       .box3{
+           background-position: -257px -251px;
+       }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+          <p class="box1"></p>
+          <p class="box2"></p>
+          <p class="box3"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+body{font-size:12px;}
+ul,ol{list-style:none;}
+.banner{width:715px; height:176px; background:url(../images/Header.jpg) no-repeat; margin:0 auto; position:relative;}
+.nav1{position:absolute; left:23px; bottom:0; height:27px;}
+.nav1 li{float:left;}
+.nav1 li a{display:block; height:27px; text-indent:-999px; background:url(../images/Navigation.gif);}
+.nav1 .li1 a{width:66px; }
+.nav1 .li2 a{width:69px; background-position:-66px 0; }
+.nav1 .li3 a{width:79px;background-position:-135px 0; }
+.nav1 .li4 a{width:85px;background-position:-214px 0; }
+.nav1 .li5 a{width:58px; background-position:-299px 0; }
+
+.nav1 .li1 a:hover{ background-position:0 -27px;}
+.nav1 .li2 a:hover{background-position:-66px -27px; }
+.nav1 .li3 a:hover{background-position:-135px -27px; }
+.nav1 .li4 a:hover{background-position:-214px -27px; }
+.nav1 .li5 a:hover{background-position:-299px -27px; }
+
+
+#home .nav1 .li1 a{background-position:0 -54px}
+#about .nav1 .li2 a{background-position:-66px -54px}
+#archive .nav1 .li3 a{background-position:-135px -54px}
+#contact .nav1 .li4 a{background-position:-214px -54px}
+#links .nav1 .li5 a{background-position:-299px -54px}
