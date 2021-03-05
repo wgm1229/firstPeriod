@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			/* body{
+				background-image: url(bg.png);
+			} */
+			.a1{
+				width: 800px;
+				height: 1000px;
+				border: 3px solid blue;
+				/* background-image: url(bg.png); */
+				font-size: 100px;
+				color: #fff;
+				/* background-repeat: no-repeat; */
+				/* background-repeat: repeat-y; */
+				/* background-position: center center; */
+				/* 水平方向上  left  right  center */
+				/* 垂直方向上  top  center  bottom */
+				/* background-position: 0px 0px; */
+				/* 目前无论是用单词，还是用数值都是在容器里面移动，参照物是当前容器 */
+				/* background-attachment: fixed; */
+				/* 如果背景图被固定了，那么是固定在浏览器窗口的
+				 再移动位置，这个时候参照物是浏览器窗口，但是背景图能看到的视觉范围
+				 还是当前容器
+				 */
+				/* background:fixed url(bg.png) no-repeat center center skyblue; */
+				/* 多背景图插入是css3新增加的写法，所以IE9以下的版本不兼容
+				 多个背景图插入的时候，中间用逗号隔开
+				 多个背景图插入的时候，层叠顺序就是按照图片代码写入的顺序层叠的
+				 先写的背景图在最上面
+				 */
+				background: url(bg.png) no-repeat left bottom,url(xiaocai.jpg) no-repeat left bottom,url(pic2.jpg);
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a1">
+			背景图呀
+		</div>
+		<img src="bg.png" />背景图呀
+	</body>
+</html>
+<!-- 
+<img/>和background-image的区别
+ 1、<img/>一个就是1个，但是background-image默认是很多个（平铺的）
+ 2、<img/>写的图片是占位置的，但是background-image写进去的是不占位置的。
+ 3、background-image的显示范围是由容器的大小决定的
+ 4、背景图如果是不平铺的情况下，是在容器的左上角
+ -->

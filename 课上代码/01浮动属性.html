@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.a1{
+				width: 100px;
+				height: 100px;
+				background-color: green;
+				font-size: 80px;
+				color: #fff;
+				float: left;
+			}
+			.a2{
+				width: 400px;
+				height: 200px;
+				background-color: red;
+				font-size: 80px;
+				color: #fff;
+				float: right;
+			}
+			.a3{
+				width: 600px;
+				height: 350px;
+				background-color: blue;
+				font-size: 80px;
+				color: #fff;
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a1">1</div>
+		<div class="a2">2文字文</div>
+		<div class="a3">3</div>
+	</body>
+</html>
+<!-- 
+ 当一个元素浮动之后，后面的元素如果没有浮动
+	现象1：当前元素会悬空，不占浏览器的位置
+	现象2：后面的元素，容器会跑上去，浮动的元素会盖住后面的元素，但是容器里面的文字会环绕显示
+ 当多个元素同时浮动的时候
+	多个元素浮动的时候，这些浮动的元素会横向排列
+	如果用的是float：left；那么是从左往右横向排列
+	如果用的是float：right；那么是从右往左横向排列
+	
+	注意点:
+		浮动是谁需要横着排列就给谁，而不是说给父元素或者子元素
+ -->

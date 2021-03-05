@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}		
+			.a1{
+				width: 800px;
+				height: 600px;
+				border: 8px solid blue;
+				background: url(bg.png) no-repeat;
+				font-size: 100px;
+				color: #000;	
+				/* background-size:300px  100px ; */
+				/* background-size:100% 100%; */
+				/* 这个百分比是容器的大小百分之多少 */
+				background-size: cover;
+				/* background-size: contain; */
+				/* cover是让背景图完全把容器盖住，但是部分背景图可能不显示 */
+				/* contain是让背景图放大，但是是按照比例进行放大，背景图可能盖不住整个容器*/
+			}
+			/* 
+			 background-size是CSS3新增加的，所以不能简写成background
+			 其次如果它和background一起用，那么注意书写顺序问题
+			 要先写background后写background-size
+			 
+			 
+			 */
+		</style>
+	</head>
+	<body>
+		<div class="a1">
+			背景图呀
+		</div>
+
+	</body>
+</html>
