@@ -1,0 +1,64 @@
+*{margin:0;padding:0;}
+/* 删除内外边距 */
+
+div{
+	width: 950px;
+	margin: 0px auto;
+}
+/* 页头 */
+#header{
+	height: 34px;
+	
+	background:rgb(233,233,233) ;
+	
+}
+/* 导航 */
+#nav{
+	height: 100px;
+	background: #ffffff;
+}
+/* 广告图 */
+#banner{
+	height: 400px;
+	background:rgb(65,70,74) ;
+}
+/* 栏目 */
+#column{
+	height: 255px;
+	background: #FFFFFF;
+}
+/* 案例展示 */
+#exhibition{
+	height: 32px;
+	background: #2d3236;
+}
+/* 案例展示菜单 */
+#menu{
+	height: 414px;
+	background: #FFFFFF;
+}
+/* 关于我们 */
+#about{
+	height: 32px;
+	background:#2d3236 ;
+}
+/* 关于我们主体 */
+#aboutUs{
+	height: 220px;
+	background:#FFFFFF ;
+}
+/* 服务流程 */
+#service{
+	height: 30px;
+	background:#2d3236 ;
+}
+/* 服务流程主体 */
+#serviceProcess{
+	height: 214px;
+	background:#FFFFFF ;
+	}
+/* 版权 */
+#copyright{
+	height: 118px;
+	background: #eaeaea;
+}

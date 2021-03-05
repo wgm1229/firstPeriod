@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;}
+/* 去除内边距和外边距 */
+
+/* 头部导航 */
+#header{
+	width: 1100px;
+	height: 65px;
+	background: rgb(242,242,242);
+	margin: 0px auto;
+}
+/* 广告图 */
+#banner{
+	height: 425px;
+	width: 1100px;
+	background:rgb(67,112,145);
+	margin: 0px auto;
+}
+/* 简介 */
+#introduce{
+	height: 716px;
+	width: 1100px;
+	background: rgb(242,242,242);
+	margin: 0px auto;
+}
+/* 底部 */
+#bottom{
+	height: 230px;
+	width: 1100px;
+	background: rgb(56,56,56);
+	margin: 0px auto;
+}

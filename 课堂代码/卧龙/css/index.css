@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+
+/* 网页的头部 */
+#header{
+    width: 999px;
+    height: 100px;
+    background: red;
+    margin: 0px auto;
+    /* 设置盒子自动居中 */
+}
+
+/* 导航 */
+#nav{
+    width: 999px;
+    height: 59px;
+    background: pink;
+    margin: 0px auto;
+}
+
+
+/* 广告图 */
+#banner{
+    width: 999px;
+    height: 465px;
+    background: #ccc;
+    margin:0 auto;
+}

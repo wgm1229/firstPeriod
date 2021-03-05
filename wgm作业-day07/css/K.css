@@ -1,0 +1,61 @@
+*{margin: 0;padding 0;}
+	
+div{
+	width: 1125px;
+	margin: 0 auto;
+}
+/* 导语 */
+#msg{
+	height: 36px;
+	background: #ecf0f1;
+}
+/* logo */
+#logo{
+	height: 112px;
+	background: #ffffff;
+}
+/* 导航 */
+#nav{
+	height: 50px;
+	background:#3598db;
+}
+/* 广告图 */
+#banner{
+	height: 400px;
+	background: #2b4963;
+}
+/* 网站公告 */
+#notice{
+	height: 110px;
+	background: #ffffff;
+}
+/* 栏目 */
+#column{
+	height: 400px;
+	background: #f8f8f8;
+}
+/* 产品展示 */
+#products{
+	height: 360px;
+	background: #ffffff;
+}
+/* 视频展示 */
+#video{
+	height: 353px;
+	background: #f8f8f8;
+}
+/* 友情链接 */
+#link{
+	height: 134px;
+	background: #ffffff;
+}
+/* 底部导航 */
+#nav-bottom{
+	height: 50px;
+	background: #34495e;
+}
+/* 版权 */
+#copyright{
+	height: 83px;
+	background: #2d3e50;
+}
