@@ -1,0 +1,85 @@
+盒模型组成（网页的内容）
+
+内容+内边距+边框线+外边距
+
+
+内边距padding
+1、padding内边距是设置盒子与内容之间的位置关系
+2、边框线里面的距离都可以设置padding
+3、padding使用时会撑大盒子，如果加上padding，又想要盒子不变形，需要加上多少padding，就在自己的宽高大小里减去多少padding
+
+4：padding如何设置
+        单一方向的padding
+
+          padding-left  左内边距
+          padding-right 右内边距
+          padding-top   上内边距
+          padding-bottom 下内边距
+
+
+        多个方向的padding
+                1个值    4个方向
+                2个值    a、上下    b、左右
+                3个值    a、上      b、左右    c、下
+                4个值    上  右  下  左 顺时针方向
+
+5、padding不可以设置负值
+
+
+margin外边距
+1、margin是控制盒子与盒子之间的位置关系
+2、边框线外边的距离都可以设置外边距
+3、 
+  margin的设置方法
+    单一方向的margin
+
+          margin-left  左内边距
+          margin-right 右内边距
+          margin-top   上内边距
+          margin-bottom 下内边距
+
+
+        多个方向的margin
+                1个值    4个方向
+                2个值    a、上下    b、左右
+                3个值    a、上      b、左右    c、下
+                4个值    上  右  下  左 顺时针方向
+
+4、margin可以设置负值
+         margin-left   正右负左
+         margin-top    正下负上
+
+5、设置块元素水平居中
+      margin:0 auto;
+      (如果是浮动的内容，auto是没有效果的)
+
+
+外边距常见的问题
+1、上下margin重叠问题
+ 如果两个盒子，上下显示，两个盒子中间都设置了外边距，上下的外边距会重叠，谁大听谁的
+
+2、margin-top的传递问题
+        当父元素下的第一个子元素设置margin-top的时候，margin-top会错误的传递给父元素
+
+        解决方法
+                父元素
+                        1、overflow: hidden;
+                          超出隐藏（但是可以解决margin-top传递的问题）
+
+                        2、border  边框线
+
+                        3、可以加浮动float（不推荐专门解决，顺便解决可以）
+
+                        4、margin-top换成父元素的padding-top
+
+             子元素
+                    float  （不推荐专门解决，顺便解决可以）
+
+-----------------------
+今天的作业
+
+1、复习今天的知识点margin和padding、盒模型的计算
+
+2、分别用单独margin和padding设置子元素在父元素下水平垂直居中
+
+3、复习css的知识点，特别是css属性

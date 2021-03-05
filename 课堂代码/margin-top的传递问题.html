@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 400px;
+            height: 300px;
+            background: #ccc;
+            margin:0px auto;
+          
+        }
+        .box{
+            width: 120px;
+            height: 120px;
+            background: red;
+            font-size: 60px;
+            color: #fff;
+            border:1px solid #000;
+            float: left;
+        }
+        .box1{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .box2{
+            margin-top: 50px;
+        }
+/*    margin-top的传递问题
+        当父元素下的第一个子元素设置margin-top的时候，margin-top会错误的传递给父元素
+
+        解决方法
+                父元素
+                        1、overflow: hidden;
+                          超出隐藏（但是可以解决margin-top传递的问题）
+
+                        2、border  边框线
+
+                        3、可以加浮动float（不推荐专门解决，顺便解决可以）
+
+                        4、margin-top换成父元素的padding-top
+
+             子元素
+                    float  （不推荐专门解决，顺便解决可以） */
+    </style>
+</head>
+<body>
+    <div class="wrap">
+          <div class="box box1">1</div>
+          <div class="box box2">2</div>
+    </div>
+</body>
+</html>
